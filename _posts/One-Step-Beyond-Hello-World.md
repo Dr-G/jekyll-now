@@ -51,7 +51,7 @@ Okay that makes sense; the Atom editor never updated (I never told it to update)
 
 At this point, I decide I should skip ahead to the part of the book where you use Python to copy, rename, and move files and folders because that seems relevant to this whole situation. 
 
-This is done using a model called **shutil**
+This is done using a module called **shutil**
 - I start at the beginning, with 'import shutil, os' 
 - The next command is to change directories, 'os.chdir('C:\\')
 
