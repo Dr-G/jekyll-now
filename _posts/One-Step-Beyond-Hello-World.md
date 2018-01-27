@@ -59,11 +59,11 @@ This is done using a model called **shutil**
 
 Okay, but that directory path doesn't register on Mac, so then I have to go to the internet again and try to search to find out how to properly specify a filepath on Mac.
 
-#### But first: Decide why I should bother learning this in Python when I already know some Bash
+#### But first: Decide why I should bother learning this in Python when I already know some bash
 
-Then I thought about how I already knew some of these types of commands in bash, so why would I bother to try to do it "blind" in Python when I already know Bash? Well searching "Python vs Bash" led me to a blog post talking about how you can do all the same things you do in Bash in Python but mostly better, and so then I decided okay, I should learn how to do this stuff in Python even if I already know how to do it (faster) in Bash.
+Then I thought about how I already knew some of these types of commands in bash, so why would I bother to try to do it "blind" in Python when I already know bash? Well searching "Python vs bash" led me to a blog post talking about how you can do all the same things you do in bash in Python but mostly better, and so then I decided okay, I should learn how to do this stuff in Python even if I already know how to do it (faster) in bash.
 
-#### Decide to stick with Python over Bash!
+#### Decide to stick with Python over bash!
 
 After more searching, I figured out how to specify a filepath on Mac.
 
@@ -92,7 +92,7 @@ And I see what directory I'm in.
 
 - I go back to Atom, close the old folder with the spaces in it.
 - I delete the folder with the spaces, again.
-- I open the folder with the underscored in Atom and re-open the python script file.
+- I open the folder with the underscores in Atom and re-open the python script file.
 - I fix the typo and save it in Atom.
 - I return to Terminal, to my `shutil` directory situation, and attempt to navigate to the proper directory:
 ```
@@ -131,6 +131,6 @@ os.chdir('/Coding')
 FileNotFoundError: [Errno 2] No such file or directory: '/Coding'
 ```
 
-# Give up, call my (software engineer) boyfriend, just go back to Bash in Terminal, run the stupid fixed hello.py script, realize I've spent two hours on this crap, stop "learning to code" for the day.
+# Give up, go back to bash in Terminal, run the stupid fixed hello.py script, realize I've spent two hours on this crap, stop "learning to code" for the day.
 
 I don't know if I can do this, y'all.
